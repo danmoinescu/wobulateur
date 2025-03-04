@@ -1,0 +1,9 @@
+utilise dans de cette appli:
+
+RS-232 for Linux and Windows
+Teunis van Beelen
+Electronics engineer
+
+This is free software, it is experimental and available under the GPL License version 2.
+
+http://www.teuniz.net/RS-232/
