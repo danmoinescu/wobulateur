@@ -1,0 +1,14 @@
+PCBNEW-LibDoc----V1  lun. 03 janv. 2011 09:11:37 CET
+#
+$MODULE TO220vertical
+Li TO220vertical
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
+$MODULE POT3IL
+Li POT3IL
+Kw POT 3 EN LIGNE
+$EndMODULE
+#
+$EndLIBDOC
