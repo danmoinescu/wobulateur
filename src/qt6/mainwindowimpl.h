@@ -11,6 +11,11 @@
 #include "boutonled.h"
 #include "qled.h"
 //
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class MainWindowImpl;
+}
+QT_END_NAMESPACE
 
 struct Acq_Rec
 {
@@ -19,11 +24,11 @@ struct Acq_Rec
 };
 
 
-class MainWindowImpl : public QMainWindow, public Ui::MainWindow
+class MainWindowImpl : public QMainWindow, public Ui::MainWindowImpl
 {
 Q_OBJECT
 public:
-	MainWindowImpl( QWidget * parent = 0, Qt::WFlags f = 0 );
+	MainWindowImpl( QWidget * parent = 0, Qt::WindowFlags f = Qt::WindowFlags());
 	QTimer *timer1;
 
 	

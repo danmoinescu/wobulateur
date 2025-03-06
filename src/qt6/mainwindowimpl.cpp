@@ -78,7 +78,7 @@ QString version = "7.2";
 
 
 
-MainWindowImpl::MainWindowImpl( QWidget * parent, Qt::WFlags f) 
+MainWindowImpl::MainWindowImpl( QWidget * parent, Qt::WindowFlags f)
 	: QMainWindow(parent, f)
 {
 	setupUi(this);
